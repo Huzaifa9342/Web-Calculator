@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: white;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+}
+.frame {
+    height : 600px;
+    width: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+}
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 380px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 30px;
+}
+.input input {
+    height: 100%;
+    width: 100%;
+    font-size: 2.5rem;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+}
+
+.keybox {
+    height: 70%;
+    width: 380px;
+    margin: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.keyrow {
+    height: 70px;
+    width: 380px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bt1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(209, 203, 203);
+    font-size: 2rem;
+}
+.bt1234 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.bl {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: gold;
+    font-size: 2rem;
+}
+.bt51 {
+    height: 70px;
+    width: 160px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.bt5 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.c {
+    background-color: rgb(62, 59, 59);
+}
+.b1 {
+    color: black;
+}
+.b {
+    border: none;
+}
+input :hover {
+    border: none;
+}
